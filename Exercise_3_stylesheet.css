@@ -1,0 +1,77 @@
+body {
+    background-color: wheat; 
+
+}
+.week_row {
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content:center;
+}
+
+.flex_col {
+    flex-basis: 13%;
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    margin-right: 3px;
+}
+
+.day {
+    border: hidden;
+    background-color: gray;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.box_style {
+    padding-bottom: 50px;
+    margin-bottom: 15px;
+}
+.title {
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.hours {
+    margin: 0px;
+    font-size: 1em;
+}
+
+.public_swim {
+    background-color: #009bcc;
+    color: white;
+}
+
+.lane_swim {
+    background-color: #96c21f;
+    color:white
+}
+
+.aquacise {
+    background-color: #e65686;
+    color:white;
+}
+
+.education_swimming_lessons {
+    background-color: #11bcaf;
+    color: white;
+}
+
+.aqua_jog {
+    background-color: #d9006b;
+    color: white;
+}
+
+.oldham_active_kids {
+    background-color: #ed6b04;
+    color:white;
+    padding-bottom: 13px !important;
+}
+
+.parent_baby_class {
+    background-color: purple;
+    color: white;
+}
